@@ -43,7 +43,10 @@ AND  is used to return result when only both given condition is true. or wicheve
 <br>
 
 OR 
+
 <br>
+<br>
+
 OR is same as ANd but it wil return the result even if it get True for first condition. and in OR conition check wont go for next condition if it get True for first result 
 
     select title,description,rating,special_features from film where rating ='G' or special_features='Trailers';
