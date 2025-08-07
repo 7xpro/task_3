@@ -58,13 +58,13 @@ LIKE
 <br>
 LIKE is used to return the result that matches the given expression there are 5 expression that i know :
 <br>
-'A%'  return result wich are start from A
+1.'A%'  return result wich are start from A
 <br>
-'%A' will return result ends with A
+2.'%A' will return result ends with A
 <br>
-'%AFS%' will return result contain AFS
+3.'%AFS%' will return result contain AFS
 <br>
-'A__' will retunr result wich is start with A and on 3 latter long
+4.'A__' will retunr result wich is start with A and on 3 latter long
 <br<
 
     select title,description,rating,special_features from film where special_features LIKE '%Deleted Scenes%';
